@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ESNext",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true
+  },
+  "include": ["./code/**/*.mjs"]
+}
