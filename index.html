@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple 2D Starter Engine</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+      body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #000;
+        color: #FFF;
+      }
+      canvas {
+        flex: 0 0 800;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="launch_warning">
+      <h1>This game cannot run in your browser</h1>
+      <p>
+        Make sure that you:
+        <ul>
+          <li>Are using either Chromium > v79 (Google Chrome, Edge, Brave, Opera, etc...), Safari > v11, or Mozilla Firefox > v60</li>
+          <li>Have Javascript enabled on your browser for this web page</li>
+        </ul>
+      </p>
+    </div>
+    <canvas id="game" width="800" height="600"></canvas>
+  </body>
+  <script type="module" src="code/main.mjs"></script>
+</html>
